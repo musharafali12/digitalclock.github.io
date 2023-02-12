@@ -1,0 +1,126 @@
+body {
+    background-color: #e7ddd3;
+}
+
+#title {
+    width: 80%;
+    margin: 3% auto 0 auto;
+    font-size: 3vw;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 7px 5px 0px rgba(153, 149, 149, 0.75);
+    -webkit-box-shadow: 2px 7px 5px 0px rgba(153, 149, 149, 0.75);
+    -moz-box-shadow: 2px 7px 5px 0px rgba(153, 149, 149, 0.75);
+}
+
+#author {
+    width: 80%;
+    margin: 3% auto 0 auto;
+    font-size: 3vw;
+    font-weight: 700;
+    color: white;
+    background-color: #555555;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 7px 5px 0px rgba(153, 149, 149, 0.75);
+    -webkit-box-shadow: 2px 7px 5px 0px rgba(153, 149, 149, 0.75);
+    -moz-box-shadow: 2px 7px 5px 0px rgba(153, 149, 149, 0.75);
+
+    p {
+        font-size: 2vw;
+    }
+}
+
+#main_container {
+    margin: 6% auto 0 auto;
+    width: 50%;
+
+    .buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+        button {
+            padding: 1% 4%;
+            background-color: #555555;
+            color: white;
+            font-weight: 600;
+            border: 1px outset #555555;
+            border-radius: 10px;
+            box-shadow: 9px 16px 5px 0px rgba(153, 149, 149, 0.75);
+            -webkit-box-shadow: 9px 16px 5px 0px rgba(153, 149, 149, 0.75);
+            -moz-box-shadow: 9px 16px 5px 0px rgba(153, 149, 149, 0.75);
+        }
+    }
+}
+
+#clock_container {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    border: 30px outset #555555;
+    border-radius: 10px;
+    box-shadow: 9px 16px 5px 0px rgba(153, 149, 149, 0.75);
+    -webkit-box-shadow: 9px 16px 5px 0px rgba(153, 149, 149, 0.75);
+    -moz-box-shadow: 9px 16px 5px 0px rgba(153, 149, 149, 0.75);
+}
+
+.lower_slides {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .lower_slide {
+        height: 15px;
+        width: 25px;
+        background-color: #555555;
+    }
+}
+
+.upper_slide {
+    margin: 1px auto 0 auto;
+    height: 15px;
+    width: 50%;
+    background-color: #818080;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+
+    border: 2px solid #555555;
+}
+
+#inner_div {
+    border: 10px inset #555555;
+}
+
+#inner_most {
+    border: 10px inset #d1d1d1;
+    background-color: #d1d1d1;
+}
+
+#hours {
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+#minutes {
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+#seconds {
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.colon {
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+#indicator {
+    font-size: 1.5vw;
+    font-weight: 700;
+}
